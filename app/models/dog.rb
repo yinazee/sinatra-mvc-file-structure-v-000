@@ -8,6 +8,7 @@ class Dog
     @name = name
     @breed = breed
     @age = age
+    @all << Dog.new
   end
 
   def save
